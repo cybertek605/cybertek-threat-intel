@@ -29,5 +29,6 @@ jobs:
             echo "No changes — lists are already up to date."
           else
             git commit -m "chore: update threat intel lists [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+            git pull --rebase origin main
             git push
           fi
