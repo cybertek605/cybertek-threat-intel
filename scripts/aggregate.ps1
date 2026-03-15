@@ -270,7 +270,7 @@ foreach ($source in $IpSources) {
             'IPSUM' { Parse-IpsumLines   -Content $content -MinScore $source.IpsumMinScore }
         }
 
-        $count = $parsed.Count
+        $count = @($parsed).Count
         if ($count -lt $source.MinEntries) {
             Write-Warning "$($source.Name): only $count entries (minimum $($source.MinEntries)). Skipping."
             $metaSources.Add([PSCustomObject]@{ Name=$source.Name; Status='skipped_too_few'; Count=$count })
@@ -295,7 +295,7 @@ foreach ($source in $CidrSources) {
     try {
         $content = Invoke-DownloadWithRetry -Url $source.Url
         $parsed  = Parse-CidrLines -Content $content -CommentChar $source.CommentChar
-        $count   = $parsed.Count
+        $count   = @($parsed).Count
         if ($count -lt $source.MinEntries) {
             Write-Warning "$($source.Name): only $count entries. Skipping."
             $metaSources.Add([PSCustomObject]@{ Name=$source.Name; Status='skipped_too_few'; Count=$count })
@@ -319,7 +319,7 @@ foreach ($source in $DomainSources) {
     try {
         $content = Invoke-DownloadWithRetry -Url $source.Url
         $parsed  = Parse-UrlLines -Content $content -CommentChar $source.CommentChar
-        $count   = $parsed.Count
+        $count   = @($parsed).Count
         if ($count -lt $source.MinEntries) {
             Write-Warning "$($source.Name): only $count entries. Skipping."
             $metaSources.Add([PSCustomObject]@{ Name=$source.Name; Status='skipped_too_few'; Count=$count })
