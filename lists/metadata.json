@@ -1,8 +1,8 @@
 {
-  "UpdatedAt": "2026-03-15T18:08:37",
+  "UpdatedAt": "2026-03-15T18:26:41",
   "TotalUniqueIPs": 29756,
   "TotalCIDRs": 1529,
-  "TotalDomains": 25297,
+  "TotalDomains": 25301,
   "MaxIpScore": 3.0,
   "IpSourceCount": 9,
   "Sources": [
@@ -34,23 +34,23 @@
     },
     {
       "Name": "Greensnow",
-      "Status": "error",
-      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "Tor Exit Nodes",
-      "Status": "error",
-      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "Abuse.ch SSLBL",
-      "Status": "error",
-      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "ThreatFox",
-      "Status": "error",
-      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "IPsum",
@@ -68,13 +68,13 @@
     },
     {
       "Name": "Spamhaus EDROP",
-      "Status": "error",
-      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 25297,
+      "Count": 25301,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
