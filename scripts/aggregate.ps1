@@ -74,7 +74,7 @@ $UserAgent = 'cybertek605/cybertek-threat-intel threat-intel-aggregator/1.0'
 #   TFOX  — ThreatFox CSV: quoted fields, ioc_value = "ip:port", comment char #
 #   IPSUM — stamparm/ipsum tab-separated "ip<TAB>score"; IpsumMinScore filters noise
 $IpSources = @(
-    [PSCustomObject]@{ Name='Feodo Tracker';   Type='IP';    CommentChar='#'; MinEntries=100; IpsumMinScore=0
+    [PSCustomObject]@{ Name='Feodo Tracker';   Type='IP';    CommentChar='#'; MinEntries=5; IpsumMinScore=0
         Url='https://feodotracker.abuse.ch/downloads/ipblocklist.txt' }
     [PSCustomObject]@{ Name='Emerging Threats'; Type='IP';   CommentChar='#'; MinEntries=100; IpsumMinScore=0
         Url='https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt' }
@@ -86,7 +86,7 @@ $IpSources = @(
         Url='https://blocklist.greensnow.co/greensnow.txt' }
     [PSCustomObject]@{ Name='Tor Exit Nodes';   Type='IP';   CommentChar='#'; MinEntries=50;  IpsumMinScore=0
         Url='https://check.torproject.org/torbulkexitlist' }
-    [PSCustomObject]@{ Name='Abuse.ch SSLBL';   Type='SSLBL'; CommentChar='#'; MinEntries=50; IpsumMinScore=0
+    [PSCustomObject]@{ Name='Abuse.ch SSLBL';   Type='SSLBL'; CommentChar='#'; MinEntries=5; IpsumMinScore=0
         Url='https://sslbl.abuse.ch/blacklist/sslipblacklist.txt' }
     [PSCustomObject]@{ Name='ThreatFox';        Type='TFOX'; CommentChar='#'; MinEntries=50;  IpsumMinScore=0
         Url='https://threatfox.abuse.ch/export/csv/ip-port/recent/' }
