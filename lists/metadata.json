@@ -1,0 +1,82 @@
+{
+  "UpdatedAt": "2026-03-15T18:08:37",
+  "TotalUniqueIPs": 29756,
+  "TotalCIDRs": 1529,
+  "TotalDomains": 25297,
+  "MaxIpScore": 3.0,
+  "IpSourceCount": 9,
+  "Sources": [
+    {
+      "Name": "Feodo Tracker",
+      "Status": "ok",
+      "Count": 5,
+      "Url": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
+      "Type": "IP"
+    },
+    {
+      "Name": "Emerging Threats",
+      "Status": "skipped_too_few",
+      "Count": 5
+    },
+    {
+      "Name": "CINS Army",
+      "Status": "ok",
+      "Count": 15000,
+      "Url": "http://cinsscore.com/list/ci-badguys.txt",
+      "Type": "IP"
+    },
+    {
+      "Name": "Binary Defense",
+      "Status": "ok",
+      "Count": 3290,
+      "Url": "https://www.binarydefense.com/banlist.txt",
+      "Type": "IP"
+    },
+    {
+      "Name": "Greensnow",
+      "Status": "error",
+      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+    },
+    {
+      "Name": "Tor Exit Nodes",
+      "Status": "error",
+      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+    },
+    {
+      "Name": "Abuse.ch SSLBL",
+      "Status": "error",
+      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+    },
+    {
+      "Name": "ThreatFox",
+      "Status": "error",
+      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+    },
+    {
+      "Name": "IPsum",
+      "Status": "ok",
+      "Count": 19259,
+      "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
+      "Type": "IPSUM"
+    },
+    {
+      "Name": "Spamhaus DROP",
+      "Status": "ok",
+      "Count": 1529,
+      "Url": "https://www.spamhaus.org/drop/drop.txt",
+      "Type": "CIDR"
+    },
+    {
+      "Name": "Spamhaus EDROP",
+      "Status": "error",
+      "Error": "The property 'Count' cannot be found on this object. Verify that the property exists."
+    },
+    {
+      "Name": "URLhaus",
+      "Status": "ok",
+      "Count": 25297,
+      "Url": "https://urlhaus.abuse.ch/downloads/text/",
+      "Type": "URL"
+    }
+  ]
+}
