@@ -18,6 +18,7 @@ jobs:
       - name: Run aggregation script
         shell: pwsh
         run: ./scripts/aggregate.ps1
+        continue-on-error: true
 
       - name: Commit and push updated lists
         run: |
