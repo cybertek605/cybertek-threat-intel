@@ -1,8 +1,8 @@
 {
-  "UpdatedAt": "2026-03-17T05:46:49",
-  "TotalUniqueIPs": 30874,
-  "TotalCIDRs": 1529,
-  "TotalDomains": 25419,
+  "UpdatedAt": "2026-03-18T05:50:49",
+  "TotalUniqueIPs": 29289,
+  "TotalCIDRs": 1527,
+  "TotalDomains": 25369,
   "MaxIpScore": 3.0,
   "IpSourceCount": 9,
   "Sources": [
@@ -28,7 +28,7 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 3832,
+      "Count": 4046,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -55,14 +55,14 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 20775,
+      "Count": 19337,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
     {
       "Name": "Spamhaus DROP",
       "Status": "ok",
-      "Count": 1529,
+      "Count": 1527,
       "Url": "https://www.spamhaus.org/drop/drop.txt",
       "Type": "CIDR"
     },
@@ -74,7 +74,7 @@
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 25419,
+      "Count": 25369,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
