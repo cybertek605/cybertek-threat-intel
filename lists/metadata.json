@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-02T05:15:02",
-  "TotalUniqueIPs": 28580,
+  "UpdatedAt": "2026-05-03T05:34:27",
+  "TotalUniqueIPs": 29686,
   "TotalCIDRs": 1617,
   "TotalDomains": 31331,
   "MaxIpScore": 3.0,
@@ -28,7 +28,7 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 7049,
+      "Count": 7187,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -55,7 +55,7 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 16839,
+      "Count": 18205,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
