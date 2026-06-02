@@ -1,9 +1,9 @@
 {
-  "UpdatedAt": "2026-06-01T07:04:02",
-  "TotalUniqueIPs": 28792,
+  "UpdatedAt": "2026-06-02T06:45:52",
+  "TotalUniqueIPs": 17213,
   "TotalCIDRs": 1607,
-  "TotalDomains": 32525,
-  "MaxIpScore": 3.0,
+  "TotalDomains": 32573,
+  "MaxIpScore": 2.0,
   "IpSourceCount": 9,
   "Sources": [
     {
@@ -20,15 +20,13 @@
     },
     {
       "Name": "CINS Army",
-      "Status": "ok",
-      "Count": 15000,
-      "Url": "http://cinsscore.com/list/ci-badguys.txt",
-      "Type": "IP"
+      "Status": "skipped_too_few",
+      "Count": 0
     },
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 967,
+      "Count": 1359,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -55,7 +53,7 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 20062,
+      "Count": 16886,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
@@ -74,7 +72,7 @@
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 32525,
+      "Count": 32573,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
