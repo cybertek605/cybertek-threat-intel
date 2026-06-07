@@ -1,8 +1,8 @@
 {
-  "UpdatedAt": "2026-06-06T05:57:24",
-  "TotalUniqueIPs": 29101,
+  "UpdatedAt": "2026-06-07T06:36:08",
+  "TotalUniqueIPs": 28922,
   "TotalCIDRs": 1642,
-  "TotalDomains": 32282,
+  "TotalDomains": 32097,
   "MaxIpScore": 3.0,
   "IpSourceCount": 9,
   "Sources": [
@@ -15,8 +15,8 @@
     },
     {
       "Name": "Emerging Threats",
-      "Status": "skipped_too_few",
-      "Count": 5
+      "Status": "error",
+      "Error": "All 3 download attempts failed for https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt"
     },
     {
       "Name": "CINS Army",
@@ -28,7 +28,7 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 2744,
+      "Count": 3040,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -55,7 +55,7 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 17946,
+      "Count": 17477,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
@@ -74,7 +74,7 @@
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 32282,
+      "Count": 32097,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
