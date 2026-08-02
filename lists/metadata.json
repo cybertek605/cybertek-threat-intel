@@ -1,8 +1,8 @@
 {
-  "UpdatedAt": "2026-08-01T05:31:15",
-  "TotalUniqueIPs": 27307,
-  "TotalCIDRs": 1665,
-  "TotalDomains": 22401,
+  "UpdatedAt": "2026-08-02T05:31:38",
+  "TotalUniqueIPs": 26760,
+  "TotalCIDRs": 1664,
+  "TotalDomains": 22185,
   "MaxIpScore": 3.0,
   "IpSourceCount": 9,
   "Sources": [
@@ -28,14 +28,14 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 2030,
+      "Count": 448,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
     {
       "Name": "Greensnow",
-      "Status": "skipped_too_few",
-      "Count": 0
+      "Status": "error",
+      "Error": "All 3 download attempts failed for https://blocklist.greensnow.co/greensnow.txt"
     },
     {
       "Name": "Tor Exit Nodes",
@@ -55,14 +55,14 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 16422,
+      "Count": 16371,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
     {
       "Name": "Spamhaus DROP",
       "Status": "ok",
-      "Count": 1665,
+      "Count": 1664,
       "Url": "https://www.spamhaus.org/drop/drop.txt",
       "Type": "CIDR"
     },
@@ -74,7 +74,7 @@
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 22401,
+      "Count": 22185,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
