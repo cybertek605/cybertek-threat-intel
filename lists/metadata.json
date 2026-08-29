@@ -1,17 +1,15 @@
 {
-  "UpdatedAt": "2026-08-28T14:10:37",
-  "TotalUniqueIPs": 26781,
+  "UpdatedAt": "2026-08-29T08:48:56",
+  "TotalUniqueIPs": 26267,
   "TotalCIDRs": 1705,
-  "TotalDomains": 18722,
+  "TotalDomains": 18622,
   "MaxIpScore": 3.0,
   "IpSourceCount": 9,
   "Sources": [
     {
       "Name": "Feodo Tracker",
-      "Status": "ok",
-      "Count": 5,
-      "Url": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
-      "Type": "IP"
+      "Status": "error",
+      "Error": "All 3 download attempts failed for https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
     },
     {
       "Name": "Emerging Threats",
@@ -28,7 +26,7 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 753,
+      "Count": 1062,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -55,7 +53,7 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 14658,
+      "Count": 14042,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
@@ -74,7 +72,7 @@
     {
       "Name": "URLhaus",
       "Status": "ok",
-      "Count": 18722,
+      "Count": 18622,
       "Url": "https://urlhaus.abuse.ch/downloads/text/",
       "Type": "URL"
     }
