@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-10-22T07:19:40",
-  "TotalUniqueIPs": 27630,
+  "UpdatedAt": "2026-10-23T07:14:57",
+  "TotalUniqueIPs": 28098,
   "TotalCIDRs": 1687,
   "TotalDomains": 0,
   "MaxIpScore": 3.0,
@@ -28,7 +28,7 @@
     {
       "Name": "Binary Defense",
       "Status": "ok",
-      "Count": 414,
+      "Count": 807,
       "Url": "https://www.binarydefense.com/banlist.txt",
       "Type": "IP"
     },
@@ -44,8 +44,8 @@
     },
     {
       "Name": "Abuse.ch SSLBL",
-      "Status": "skipped_too_few",
-      "Count": 0
+      "Status": "error",
+      "Error": "All 3 download attempts failed for https://sslbl.abuse.ch/blacklist/sslipblacklist.txt"
     },
     {
       "Name": "ThreatFox",
@@ -55,7 +55,7 @@
     {
       "Name": "IPsum",
       "Status": "ok",
-      "Count": 20037,
+      "Count": 19762,
       "Url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
       "Type": "IPSUM"
     },
